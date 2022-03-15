@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+body, html {
+    scroll-behavior: smooth;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset end */
+
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 85px;
+    background-color: rgba(211, 31, 31, 0.333);
+}
+
+.menu-list{
+    display: flex;
+}
+
+
+.container-headline {
+    height: 895px;
+    background-image: url(./assets/img/BG.jpg);
+}
+
+.container-headline__data{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 384px;
+}
+
+.container-headline03 {
+    height: 922px;
+    background-color: #245852;
+}
+
+.container-headline__data03 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle{
+    position: absolute;
+}
+
+.arrow{
+    position: relative;
+    left: 30px;
+    top: 23px;
+}
+
+.headline__text {
+    padding-top: 310px;
+}
+
+.video__image {
+    padding-top: 229px;
+    border-radius: 14px;
+}
+
+.container-headline04{
+    height: 936px;
+    background-color: #fff;
+}
+
+
+.footer{
+    height: 654px;
+    background-color: #245852;
+}
+
+.navigation{
+    padding: 35px 0px 0px 275px;
+}
+
+.list-link-name-footer{
+    padding-top: 60px;
+}
+
+.menu-link-footer__title {
+    text-decoration: none;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.menu-link-footer__others {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
