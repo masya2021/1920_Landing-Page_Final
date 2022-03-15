@@ -1,50 +1,137 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-body, html {
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+body,
+html {
     scroll-behavior: smooth;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* css reset end */
@@ -55,28 +142,153 @@ table {
     margin: 0 auto;
 }
 
-.header{
-    display: flex;
-    justify-content: space-around;
+.header {
     height: 85px;
+    position: relative;
     background-color: rgba(211, 31, 31, 0.333);
 }
 
-.menu-list{
+.header-container {
     display: flex;
+    flex-direction: row;
+    padding-top: 17px;
+    max-width: 1377px;
+    margin: 0 auto;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+}
 
-.container-headline {
+.menu {
+    display: flex;
+    align-items: center;
+    padding-left: 172px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    width: 557px;
+}
+
+.menu-item-link {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+}
+
+.enter {
+    display: flex;
+    width: 285px;
+    height: 51px;
+    padding-left: 282px;
+}
+
+.registered-saite {
+    display: flex;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+.start {
+    /* 
+    flex-direction: column; */
+    /* align-items: center; */
+    padding: 13px 50px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.container-headline01 {
     height: 895px;
     background-image: url(./assets/img/BG.jpg);
 }
 
-.container-headline__data{
+.container-headline__data {
     display: flex;
     flex-direction: column;
     width: 440px;
     height: 384px;
+}
+
+.headline01{
+    position: absolute;
+    width: 440px;
+    height: 148px;
+    left: 275px;
+    top: 261px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+}
+
+.text01{
+    position: absolute;
+    width: 420px;
+    height: 123px;
+    left: 275px;
+    top: 439px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #484848;
+}
+
+.find01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    position: absolute;
+    width: 227px;
+    height: 65px;
+    left: 275px;
+    top: 580px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container-headline02{
+    height: 1606px;
+    background-color: green;
 }
 
 .container-headline03 {
@@ -89,11 +301,40 @@ table {
     justify-content: space-around;
 }
 
-.circle{
+.headline__text{
+    position: absolute;
+    width: 580px;
+    height: 158px;
+    left: 207px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 79px;
+    color: #FFFFFF;
+}
+
+.text03{
+    position: absolute;
+    width: 560px;
+    height: 39px;
+    left: 207px;
+    top: 3087px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #FFFFFF; 
+}
+
+
+
+.circle {
     position: absolute;
 }
 
-.arrow{
+.arrow {
     position: relative;
     left: 30px;
     top: 23px;
@@ -108,22 +349,22 @@ table {
     border-radius: 14px;
 }
 
-.container-headline04{
+.container-headline04 {
     height: 936px;
     background-color: #fff;
 }
 
 
-.footer{
+.footer {
     height: 654px;
     background-color: #245852;
 }
 
-.navigation{
+.navigation {
     padding: 35px 0px 0px 275px;
 }
 
-.list-link-name-footer{
+.list-link-name-footer {
     padding-top: 60px;
 }
 
