@@ -145,7 +145,8 @@ table {
 .header {
     height: 85px;
     position: relative;
-    background-color: rgba(211, 31, 31, 0.333);
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D6D6D6;
 }
 
 .header-container {
@@ -292,20 +293,25 @@ table {
 }
 
 .container-headline03 {
+    width: 100%;
     height: 922px;
     background-color: #245852;
 }
 
 .container-headline__data03 {
+    max-width: 1510px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.headline__text{
+
+.qustions03{
     position: absolute;
     width: 580px;
     height: 158px;
     left: 207px;
+    top: 2897px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 700;
@@ -322,37 +328,65 @@ table {
     top: 3087px;
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 25px;
     line-height: 157%;
     color: #FFFFFF; 
 }
 
-
-
-.circle {
+.find03{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 45px;
     position: absolute;
+    width: 240px;
+    height: 65px;
+    left: 207px;
+    top: 3184px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
 
-.arrow {
-    position: relative;
-    left: 30px;
-    top: 23px;
+.headline__video{
+    display: flex;
+    flex-direction: column;
 }
 
-.headline__text {
-    padding-top: 310px;
+.video__image{
+    padding-top: 229px; 
+    border-radius: 25px; 
 }
 
-.video__image {
-    padding-top: 229px;
-    border-radius: 14px;
+.play__btn{
+    background-image: url(./assets/svg/play-white.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 3035px;
+    left: 1228px;
 }
-
-.container-headline04 {
+.container-headline004 {
     height: 936px;
-    background-color: #fff;
+    background-color: rgb(133, 221, 172);
 }
+
+.container-headline__data004{
+    background-color: coral;
+    max-width: 1370px;
+    height: 648px;
+  padding-top: 120px;
+}   
+
 
 
 .footer {
