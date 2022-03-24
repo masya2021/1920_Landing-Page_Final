@@ -377,7 +377,6 @@ table {
 }
 .container-headline004 {
     height: 936px;
-    background-color: rgb(133, 221, 172);
 }
 
 .container-headline__data004{
@@ -416,54 +415,104 @@ table {
     width: 427.6px;
     height: 641.05px;
     left: 432.79px;
-    top: 3561.3px;
+    top: 3627px;
     
     background: url(./assets/img/court-cook.png);
     border-radius: 18.1125px;
 }
 
 .card3{
+    display: flex;
+    flex-direction: column;
     position: absolute;
     width: 296.14px;
     height: 293.9px;
     left: 275px;
     top: 3983.1px;
-
     background: #FFFFFF;
     border-radius: 3.72971px;
+    filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+}
+
+.cust{
+    padding-top: 24px;
 }
 
 .customized{
-    width: 130.54px;
-    height: 23.12px;
-    left: 358.32px;
-    top: 4005.74px;
-
+    text-align: center;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
     font-size: 14.49px;
-    line-height: 157%;
-    /* or 23px */
-
+    line-height: 23px;
     text-align: center;
-
     color: #000000;
 }
 
-.line__customized{
-    position: absolute;
-    width: 110.49px;
-    height: 0px;
-    left: 366.47px;
-    top: 4036.53px;
 
-    border: 0.745942px solid #ad0505;
+.customized::before{
+    content: "";
+    position: absolute;
+    top: 55px;
+    left: 92px;
+    width: 110px;
+    height: 1px;
+    background: #710707;
+    border-radius: 0px;
 }
 
+.face{
+    padding-top: 20px;
+    text-align: center;
+}
 
-.Mikayla{
-    
+.name{
+    text-align: center;
+    padding-top: 8px;
+}
+
+.name__text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 157%;
+    text-align: center;
+    color: #000000;
+}
+
+.contects{
+    padding-top: 20px;
+    padding-left: 3px;
+    text-align: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.9292px;
+    line-height: 157%;
+    color: #000000;
+}
+
+.list__skill{
+    padding-top: 16px;
+    padding-left: 75px;
+    list-style: circle;
+}
+
+.skill{
+    list-style-type: disc;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.6195px;
+    line-height: 157%;
+    color: #000000;
+    padding-left: -5px;
+}
+
+.skill__custom{
+    padding-bottom: 16px;
+    padding-left: 0px;
 }
 
 .centr-text{
