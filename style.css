@@ -289,7 +289,6 @@ table {
 
 .container-headline02{
     height: 1454px;
-    background-color: green;
 }
 
 .headline02__content{
@@ -297,7 +296,6 @@ table {
 }
 
 .container-headline02__content{
-    background-color: yellow;
     max-width: 1386px;
     width: 98%;
     height: 1413px;    
@@ -405,11 +403,101 @@ table {
 }
 
 .colunm02{
-    max-width: 392px;
+    max-width: 390px;
+    margin-top: 340px;
+    margin-left: 7%;
 }
 
+.number2{
+    position: absolute;
+    padding-left: 15px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.title2{
+    position: absolute;
+    padding-top: 135px;
+    padding-left: 95px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+
+.column__teext2{
+    padding-top: 235px;
+    padding-left: 15px;
+    min-width: 400px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+
+.column02__background{
+    padding-top: 9.5%;
+    padding-left: 3.5%;
+}
+
+
 .colunm03{
-    max-width: 441px;
+    /* max-width: 600px; */
+    margin-top: 108px;
+    margin-left: 7.5%;
+}
+
+.number3{
+    position: absolute;
+    padding-left: 15px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.title3{
+    position: absolute;
+    padding-top: 135px;
+    padding-left: 7.2%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+
+.column__teext3{
+    padding-top: 225px;
+    padding-left: 1%;
+    min-width: 400px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+
+.column03__background{
+    padding-top: 12%;
+    padding-left: 3%;
+    border-radius: 4px;
 }
 
 .container-headline03 {
@@ -467,7 +555,6 @@ table {
     border: 1px solid #01996D;
     box-sizing: border-box;
     border-radius: 4px;
-
     text-decoration: none;
     font-family: 'Lato';
     font-style: normal;
@@ -483,7 +570,7 @@ table {
 }
 
 .video__image{
-    padding-top: 140px; 
+    padding-top: 225px; 
     border-radius: 25px; 
 }
 
